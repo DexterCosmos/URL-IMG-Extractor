@@ -21,12 +21,15 @@ To use this script, you need to have Python installed. You can install the requi
 ```bash
 pip install requests
 pip install beautifulsoup4
+pip install os
+pip install urllib
 ```
 
 ## Usage
+
 1. Clone this repository or download the script.
    
-2 .Run the script:
+2. Run the script:
 ```script
 python extract_images.py
 ```
