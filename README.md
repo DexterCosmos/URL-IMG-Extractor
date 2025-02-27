@@ -18,22 +18,22 @@ This Python script extracts and downloads all images from a given URL. The image
 
 To use this script, you need to have Python installed. You can install the required packages using pip:
 
-```bash
-pip install requests
-pip install beautifulsoup4
-pip install os
-pip install urllib
-```
+  ```bash
+  pip install requests
+  pip install beautifulsoup4
+  pip install os
+  pip install urllib
+  ```
 
 ## Usage
 
-1.Clone this repository or download the script.
+1. Clone this repository or download the script.
    
-2.Run the script:
-```script
-python extract_images.py
-```
-3.Enter the URL of the web page you want to extract images from when prompted.
+2. Run the script:
+  ```script
+  python extract_images.py
+  ```
+3. Enter the URL of the web page you want to extract images from when prompted.
 
 The script will create an images folder (if it doesn't already exist) and download all images from the specified URL into this folder.
 
@@ -55,8 +55,8 @@ The script works as follows:
 - If the specified folder does not exist, it will be created`
 
 ## Example
-```example
-Enter the URL of the page to extract images from: https://example.com
-Downloaded images/image_0.jpg
-Downloaded images/image_1.png
-```
+  ```example
+  Enter the URL of the page to extract images from: https://example.com
+  Downloaded images/image_0.jpg
+  Downloaded images/image_1.png
+  ```
