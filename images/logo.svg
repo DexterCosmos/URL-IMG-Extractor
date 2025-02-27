@@ -17,5 +17,5 @@
     </linearGradient>
   </defs>
   <rect class="background" width="200" height="200"/>
-  <text x="10" y="150" class="text">IMG</text>
+  <text x="10" y="150" class="text">Web image Extractor</text>
 </svg>
