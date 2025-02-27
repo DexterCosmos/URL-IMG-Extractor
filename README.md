@@ -1,1 +1,54 @@
-<svg height="1rem" style="flex:none;line-height:1" viewBox="0 0 24 24" width="1rem" xmlns="http://www.w3.org/2000/svg"><title>Hunyuan</title><g fill="none" fill-rule="evenodd"><circle cx="12" cy="12" fill="#0055E9" r="12"></circle><path d="M12 0c.518 0 1.028.033 1.528.096A6.188 6.188 0 0112.12 12.28l-.12.001c-2.99 0-5.242 2.179-5.554 5.11-.223 2.086.353 4.412 2.242 6.146C3.672 22.1 0 17.479 0 12 0 5.373 5.373 0 12 0z" fill="#A8DFF5"></path><path d="M5.286 5a2.438 2.438 0 01.682 3.38c-3.962 5.966-3.215 10.743 2.648 15.136C3.636 22.056 0 17.452 0 12c0-1.787.39-3.482 1.09-5.006.253-.435.525-.872.817-1.311A2.438 2.438 0 015.286 5z" fill="#0055E9"></path><path d="M12.98.04c.272.021.543.053.81.093.583.106 1.117.254 1.538.44 6.638 2.927 8.07 10.052 1.748 15.642a4.125 4.125 0 01-5.822-.358c-1.51-1.706-1.3-4.184.357-5.822.858-.848 3.108-1.223 4.045-2.441 1.257-1.634 2.122-6.009-2.523-7.506L12.98.039z" fill="#00BCFF"></path><path d="M13.528.096A6.187 6.187 0 0112 12.281a5.75 5.75 0 00-1.71.255c.147-.905.595-1.784 1.321-2.501.858-.848 3.108-1.223 4.045-2.441 1.27-1.651 2.14-6.104-2.676-7.554.184.014.367.033.548.056z" fill="#ECECEE"></path></g></svg>
+# Image Extractor
+
+This Python script extracts and downloads all images from a given URL. The images are saved in a specified folder on your local machine.
+
+## Requirements
+
+- Python 3.x
+- requests
+- BeautifulSoup (from bs4)
+- os
+- urllib
+
+## Installation
+
+To use this script, you need to have Python installed. You can install the required packages using pip:
+
+```bash
+pip install requests
+pip install beautifulsoup4
+```
+
+## Usage
+1. Clone this repository or download the script.
+2 .Run the script:
+```script
+python extract_images.py
+```
+3. Enter the URL of the web page you want to extract images from when prompted.
+
+The script will create an images folder (if it doesn't already exist) and download all images from the specified URL into this folder.
+
+## How it works
+
+The script works as follows:
+
+1. Sends a GET request to the specified URL.
+2. Parses the HTML content of the page using BeautifulSoup.
+3. Finds all image tags (<img>).
+4. Constructs the full URL for each image and downloads it.
+5. Saves the images to the specified folder.
+
+## Notes
+
+- Only images with valid URLs are downloaded.
+- Non-image URLs are skipped.
+- Images are named sequentially as image_0, image_1, etc., based on their order in the HTML.
+- If the specified folder does not exist, it will be created`
+
+## Example
+```example
+Enter the URL of the page to extract images from: https://example.com
+Downloaded images/image_0.jpg
+Downloaded images/image_1.png
+```
