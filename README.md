@@ -24,7 +24,9 @@ pip install beautifulsoup4
 ```
 
 ## Usage
+
 1. Clone this repository or download the script.
+   
 2 .Run the script:
 ```script
 python extract_images.py
