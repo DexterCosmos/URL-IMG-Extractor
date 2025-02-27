@@ -27,13 +27,13 @@ pip install urllib
 
 ## Usage
 
-1. Clone this repository or download the script.
+1.Clone this repository or download the script.
    
-2. Run the script:
+2.Run the script:
 ```script
 python extract_images.py
 ```
-3. Enter the URL of the web page you want to extract images from when prompted.
+3.Enter the URL of the web page you want to extract images from when prompted.
 
 The script will create an images folder (if it doesn't already exist) and download all images from the specified URL into this folder.
 
