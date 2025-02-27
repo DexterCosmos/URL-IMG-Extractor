@@ -35,7 +35,7 @@ To use this script, you need to have Python installed. You can install the requi
   ```
 3. Enter the URL of the web page you want to extract images from when prompted.
 
-The script will create an images folder (if it doesn't already exist) and download all images from the specified URL into this folder.
+- The script will create an images folder (if it doesn't already exist) and download all images from the specified URL into this folder.
 
 ## How it works
 
