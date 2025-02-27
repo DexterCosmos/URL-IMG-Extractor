@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="images/logo.svg" alt="Logo" width="200">
+</p>
+
 # Image Extractor
 
 This Python script extracts and downloads all images from a given URL. The images are saved in a specified folder on your local machine.
